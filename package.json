@@ -28,13 +28,17 @@
     "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
     "@testing-library/react-native": "^14.0.1",
     "@types/jest": "29.5.14",
     "@types/react": "~19.2.2",
     "eslint": "^9.39.5",
     "eslint-config-expo": "^57.0.1",
+    "husky": "^9.1.7",
     "jest": "~29.7.0",
     "jest-expo": "~57.0.4",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.9.6",
     "typescript": "~6.0.3"
   },
@@ -49,7 +53,8 @@
     "format:check": "prettier --check \"src/**/*.{ts,tsx,js,jsx,json}\"",
     "test": "jest --watchAll",
     "test:ci": "jest --coverage",
-    "test:update": "jest -u --coverage=false"
+    "test:update": "jest -u --coverage=false",
+    "prepare": "husky"
   },
   "jest": {
     "preset": "jest-expo",
@@ -66,6 +71,14 @@
       "!**/.expo/**",
       "!**/expo-env.d.ts",
       "!src/__mocks__/**"
+    ]
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,jsx,json}": [
+      "prettier --write"
+    ],
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "eslint --fix --max-warnings=0"
     ]
   },
   "private": true
