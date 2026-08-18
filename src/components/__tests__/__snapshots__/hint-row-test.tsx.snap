@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HintRow /> matches snapshot 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#000000",
+        },
+        false,
+        false,
+        {
+          "fontSize": 14,
+          "fontWeight": 500,
+          "lineHeight": 20,
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        undefined,
+      ]
+    }
+  >
+    Test
+  </Text>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#E0E1E6",
+        },
+        {
+          "borderRadius": 8,
+          "paddingHorizontal": 8,
+          "paddingVertical": 2,
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#60646C",
+          },
+          {
+            "fontSize": 16,
+            "fontWeight": 500,
+            "lineHeight": 24,
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          undefined,
+        ]
+      }
+    >
+      value
+    </Text>
+  </View>
+</View>
+`;

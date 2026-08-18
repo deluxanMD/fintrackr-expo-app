@@ -15,6 +15,7 @@ export function Collapsible({ children, title }: PropsWithChildren & { title: st
   return (
     <ThemedView>
       <Pressable
+        testID="collapsible-pressable"
         style={({ pressed }) => [styles.heading, pressed && styles.pressedHeading]}
         onPress={() => setIsOpen((value) => !value)}
       >

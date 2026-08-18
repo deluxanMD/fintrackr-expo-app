@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<WebBadge /> matches snapshot (dark) 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#000000",
+      },
+      {
+        "alignItems": "center",
+        "gap": 8,
+        "padding": 32,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#B0B4BA",
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        {
+          "fontFamily": "ui-monospace",
+          "fontSize": 12,
+          "fontWeight": 500,
+        },
+        {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    v
+    57.0.14
+  </Text>
+  <Image
+    source={
+      {
+        "testUri": "../../../assets/images/expo-badge-white.png",
+      }
+    }
+    style={
+      {
+        "aspectRatio": 5.125,
+        "width": 123,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`<WebBadge /> matches snapshot (light) 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#ffffff",
+      },
+      {
+        "alignItems": "center",
+        "gap": 8,
+        "padding": 32,
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#60646C",
+        },
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        {
+          "fontFamily": "ui-monospace",
+          "fontSize": 12,
+          "fontWeight": 500,
+        },
+        {
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    v
+    57.0.14
+  </Text>
+  <Image
+    source={
+      {
+        "testUri": "../../../assets/images/expo-badge.png",
+      }
+    }
+    style={
+      {
+        "aspectRatio": 5.125,
+        "width": 123,
+      }
+    }
+  />
+</View>
+`;

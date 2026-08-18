@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#ffffff",
+      },
+      {
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "center",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flex": 1,
+        "gap": 16,
+        "maxWidth": 800,
+        "paddingBottom": 66,
+        "paddingHorizontal": 24,
+      }
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#ffffff",
+          },
+          {
+            "alignItems": "center",
+            "flex": 1,
+            "gap": 24,
+            "justifyContent": "center",
+            "paddingHorizontal": 24,
+          },
+        ]
+      }
+    >
+      <Text
+        style={
+          [
+            {
+              "color": "#000000",
+            },
+            false,
+            {
+              "fontSize": 48,
+              "fontWeight": 600,
+              "lineHeight": 52,
+            },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            {
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        Welcome to Expo
+      </Text>
+    </View>
+    <Text
+      style={
+        [
+          {
+            "color": "#000000",
+          },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          {
+            "fontFamily": "ui-monospace",
+            "fontSize": 12,
+            "fontWeight": 500,
+          },
+          {
+            "textTransform": "uppercase",
+          },
+        ]
+      }
+    >
+      get started
+    </Text>
+    <View
+      style={
+        [
+          {
+            "backgroundColor": "#F0F0F3",
+          },
+          {
+            "alignSelf": "stretch",
+            "borderRadius": 24,
+            "gap": 16,
+            "paddingHorizontal": 16,
+            "paddingVertical": 24,
+          },
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#000000",
+              },
+              false,
+              false,
+              {
+                "fontSize": 14,
+                "fontWeight": 500,
+                "lineHeight": 20,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          Try editing
+        </Text>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#E0E1E6",
+              },
+              {
+                "borderRadius": 8,
+                "paddingHorizontal": 8,
+                "paddingVertical": 2,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#60646C",
+                },
+                {
+                  "fontSize": 16,
+                  "fontWeight": 500,
+                  "lineHeight": 24,
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "ui-monospace",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              src/app/index.tsx
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#000000",
+              },
+              false,
+              false,
+              {
+                "fontSize": 14,
+                "fontWeight": 500,
+                "lineHeight": 20,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          Dev tools
+        </Text>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#E0E1E6",
+              },
+              {
+                "borderRadius": 8,
+                "paddingHorizontal": 8,
+                "paddingVertical": 2,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#60646C",
+                },
+                {
+                  "fontSize": 16,
+                  "fontWeight": 500,
+                  "lineHeight": 24,
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                  },
+                  false,
+                  false,
+                  {
+                    "fontSize": 14,
+                    "fontWeight": 500,
+                    "lineHeight": 20,
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              press 
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#000000",
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    {
+                      "fontFamily": "ui-monospace",
+                      "fontSize": 12,
+                      "fontWeight": 500,
+                    },
+                    undefined,
+                  ]
+                }
+              >
+                cmd+d
+              </Text>
+            </Text>
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#000000",
+              },
+              false,
+              false,
+              {
+                "fontSize": 14,
+                "fontWeight": 500,
+                "lineHeight": 20,
+              },
+              false,
+              false,
+              false,
+              false,
+              false,
+              undefined,
+            ]
+          }
+        >
+          Fresh start
+        </Text>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#E0E1E6",
+              },
+              {
+                "borderRadius": 8,
+                "paddingHorizontal": 8,
+                "paddingVertical": 2,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#60646C",
+                },
+                {
+                  "fontSize": 16,
+                  "fontWeight": 500,
+                  "lineHeight": 24,
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                undefined,
+              ]
+            }
+          >
+            <Text
+              style={
+                [
+                  {
+                    "color": "#000000",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "ui-monospace",
+                    "fontSize": 12,
+                    "fontWeight": 500,
+                  },
+                  undefined,
+                ]
+              }
+            >
+              npm run reset-project
+            </Text>
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

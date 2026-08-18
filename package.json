@@ -62,7 +62,9 @@
       "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@sentry/react-native|native-base|react-native-svg)"
     ],
     "moduleNameMapper": {
-      "\\.css$": "<rootDir>/src/__mocks__/fileMock.js"
+      "\\.css$": "<rootDir>/src/__mocks__/fileMock.js",
+      "^@/assets/(.*)$": "<rootDir>/assets/$1",
+      "^@/(.*)$": "<rootDir>/src/$1"
     },
     "collectCoverageFrom": [
       "src/**/*.{ts,tsx,js,jsx}",
@@ -71,6 +73,9 @@
       "!**/.expo/**",
       "!**/expo-env.d.ts",
       "!src/__mocks__/**"
+    ],
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/__mocks__/setup.ts"
     ]
   },
   "lint-staged": {

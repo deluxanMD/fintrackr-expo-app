@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnimatedIcon /> (web) matches snapshot 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "height": 128,
+      "justifyContent": "center",
+      "width": 128,
+    }
+  }
+>
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              240000,
+            ],
+            [
+              240000,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "height": 201,
+        "position": "absolute",
+        "width": 201,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/logo-glow.png",
+        }
+      }
+      style={
+        {
+          "height": 201,
+          "position": "absolute",
+          "width": 201,
+        }
+      }
+    />
+  </View>
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              300,
+            ],
+            [
+              300,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "height": 128,
+        "position": "absolute",
+        "width": 128,
+      }
+    }
+  >
+    <div />
+  </View>
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              300,
+            ],
+            [
+              300,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/expo-logo.png",
+        }
+      }
+      style={
+        {
+          "height": 71,
+          "position": "absolute",
+          "width": 76,
+        }
+      }
+    />
+  </View>
+</View>
+`;

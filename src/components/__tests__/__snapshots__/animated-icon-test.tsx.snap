@@ -1,0 +1,182 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AnimatedIcon /> matches snapshot 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "height": 128,
+      "justifyContent": "center",
+      "width": 128,
+      "zIndex": 100,
+    }
+  }
+>
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              240000,
+            ],
+            [
+              240000,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "height": 201,
+        "position": "absolute",
+        "width": 201,
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/logo-glow.png",
+        }
+      }
+      style={
+        {
+          "height": 201,
+          "position": "absolute",
+          "width": 201,
+        }
+      }
+    />
+  </View>
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              600,
+            ],
+            [
+              600,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "borderRadius": 40,
+        "experimental_backgroundImage": "linear-gradient(180deg, #3C9FFE, #0274DF)",
+        "height": 128,
+        "position": "absolute",
+        "width": 128,
+      }
+    }
+  />
+  <View
+    entering={
+      {
+        "duration": [MockFunction] {
+          "calls": [
+            [
+              600,
+            ],
+            [
+              600,
+            ],
+          ],
+          "results": [
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+            {
+              "type": "return",
+              "value": [Circular],
+            },
+          ],
+        },
+        "withCallback": [MockFunction],
+      }
+    }
+    style={
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Image
+      source={
+        {
+          "testUri": "../../../assets/images/expo-logo.png",
+        }
+      }
+      style={
+        {
+          "height": 71,
+          "width": 76,
+        }
+      }
+    />
+  </View>
+</View>
+`;
+
+exports[`<AnimatedSplashOverlay /> matches snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#208AEF",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+      "zIndex": 1000,
+    }
+  }
+  testID="splash-overlay"
+>
+  <Image
+    source={
+      {
+        "testUri": "../../../assets/images/expo-logo.png",
+      }
+    }
+    style={
+      {
+        "height": 71,
+        "width": 76,
+      }
+    }
+  />
+</View>
+`;

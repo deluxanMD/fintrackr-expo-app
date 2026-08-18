@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppTabs /> (native) matches snapshot 1`] = `
+<View
+  testID="native-tabs"
+>
+  <View
+    testID="trigger-index"
+  >
+    <Text>
+      Home
+    </Text>
+  </View>
+  <View
+    testID="trigger-explore"
+  >
+    <Text>
+      Explore
+    </Text>
+  </View>
+</View>
+`;
