@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
+exports[`<HomeScreen /> matches snapshot 1`] = `
 <View
   style={
     [
@@ -18,177 +18,33 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
   <View
     style={
       {
-        "alignItems": "center",
         "flex": 1,
-        "gap": 16,
         "maxWidth": 800,
-        "paddingBottom": 66,
-        "paddingHorizontal": 24,
+        "width": "100%",
       }
     }
   >
-    <View
-      style={
-        [
-          {
-            "backgroundColor": "#fcf8ff",
-          },
-          {
-            "alignItems": "center",
-            "flex": 1,
-            "gap": 24,
-            "justifyContent": "center",
-            "paddingHorizontal": 24,
-          },
-        ]
-      }
-    >
-      <Text
-        style={
-          [
-            {
-              "color": "#1b1b24",
-            },
-            false,
-            {
-              "fontFamily": "Manrope",
-              "fontSize": 48,
-              "fontWeight": "800",
-              "letterSpacing": -0.96,
-              "lineHeight": 56,
-            },
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            {
-              "textAlign": "center",
-            },
-          ]
+    <RCTScrollView
+      contentContainerStyle={
+        {
+          "gap": 48,
+          "paddingBottom": 130,
+          "paddingHorizontal": 24,
+          "paddingTop": 80,
         }
-      >
-        Welcome to Expo
-      </Text>
-    </View>
-    <Text
-      style={
-        [
-          {
-            "color": "#1b1b24",
-          },
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          [
-            {
-              "fontFamily": "JetBrains Mono",
-              "fontSize": 12,
-              "fontWeight": "500",
-              "letterSpacing": 0.6000000000000001,
-              "lineHeight": 16,
-            },
-            {
-              "fontFamily": "ui-monospace",
-            },
-          ],
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          {
-            "textTransform": "uppercase",
-          },
-        ]
       }
+      showsVerticalScrollIndicator={false}
     >
-      get started
-    </Text>
-    <View
-      style={
-        [
-          {
-            "backgroundColor": "#ffffff",
-          },
-          {
-            "alignSelf": "stretch",
-            "borderRadius": 24,
-            "gap": 16,
-            "paddingHorizontal": 16,
-            "paddingVertical": 24,
-          },
-        ]
-      }
-    >
-      <View
-        style={
-          {
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-          }
-        }
-      >
-        <Text
-          style={
-            [
-              {
-                "color": "#1b1b24",
-              },
-              false,
-              false,
-              false,
-              {
-                "fontFamily": "JetBrains Mono",
-                "fontSize": 14,
-                "fontWeight": "500",
-                "letterSpacing": 0.28,
-                "lineHeight": 20,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              undefined,
-            ]
-          }
-        >
-          Try editing
-        </Text>
+      <View>
         <View
           style={
             [
               {
-                "backgroundColor": "#f5f2ff",
+                "backgroundColor": "#fcf8ff",
               },
               {
-                "borderRadius": 8,
-                "paddingHorizontal": 8,
-                "paddingVertical": 2,
+                "gap": 12,
+                "marginBottom": 12,
               },
             ]
           }
@@ -197,22 +53,57 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
             style={
               [
                 {
-                  "color": "#464555",
+                  "color": "#3525cd",
                 },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.6000000000000001,
+                  "lineHeight": 16,
+                },
+                undefined,
+              ]
+            }
+          >
+            DESIGN SYSTEM
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "#1b1b24",
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 {
                   "fontFamily": "Manrope",
-                  "fontSize": 16,
-                  "fontWeight": "400",
-                  "lineHeight": 24,
+                  "fontSize": 48,
+                  "fontWeight": "800",
+                  "letterSpacing": -0.96,
+                  "lineHeight": 56,
                 },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
                 false,
                 false,
                 false,
@@ -222,6 +113,110 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                 false,
                 undefined,
               ]
+            }
+          >
+            Vibrant FinTrack
+          </Text>
+          <Text
+            style={
+              [
+                {
+                  "color": "#464555",
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                {
+                  "fontFamily": "Manrope",
+                  "fontSize": 18,
+                  "fontWeight": "400",
+                  "lineHeight": 28,
+                },
+                false,
+                false,
+                false,
+                undefined,
+              ]
+            }
+          >
+            Welcome to the Luminous Clarity design system. Below is a preview of the new typography and button components.
+          </Text>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#ffffff",
+              },
+              {
+                "backgroundColor": "#ffffff",
+                "borderColor": "rgba(79, 70, 229, 0.1)",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "elevation": 2,
+                "gap": 24,
+                "padding": 24,
+                "shadowColor": "#4f46e5",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.06,
+                "shadowRadius": 20,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#777587",
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.28,
+                  "lineHeight": 20,
+                },
+                false,
+                {
+                  "marginBottom": 4,
+                },
+              ]
+            }
+          >
+            TYPOGRAPHY
+          </Text>
+          <View
+            style={
+              {
+                "gap": 24,
+              }
             }
           >
             <Text
@@ -237,19 +232,14 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                   false,
                   false,
                   false,
-                  [
-                    {
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 12,
-                      "fontWeight": "500",
-                      "letterSpacing": 0.6000000000000001,
-                      "lineHeight": 16,
-                    },
-                    {
-                      "fontFamily": "ui-monospace",
-                    },
-                  ],
                   false,
+                  {
+                    "fontFamily": "Manrope",
+                    "fontSize": 48,
+                    "fontWeight": "800",
+                    "letterSpacing": -0.96,
+                    "lineHeight": 56,
+                  },
                   false,
                   false,
                   false,
@@ -261,104 +251,158 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                 ]
               }
             >
-              src/app/index.tsx
+              Display Lg (48)
             </Text>
-          </Text>
-        </View>
-      </View>
-      <View
-        style={
-          {
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-          }
-        }
-      >
-        <Text
-          style={
-            [
-              {
-                "color": "#1b1b24",
-              },
-              false,
-              false,
-              false,
-              {
-                "fontFamily": "JetBrains Mono",
-                "fontSize": 14,
-                "fontWeight": "500",
-                "letterSpacing": 0.28,
-                "lineHeight": 20,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              undefined,
-            ]
-          }
-        >
-          Dev tools
-        </Text>
-        <View
-          style={
-            [
-              {
-                "backgroundColor": "#f5f2ff",
-              },
-              {
-                "borderRadius": 8,
-                "paddingHorizontal": 8,
-                "paddingVertical": 2,
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              [
-                {
-                  "color": "#464555",
-                },
-                {
-                  "fontFamily": "Manrope",
-                  "fontSize": 16,
-                  "fontWeight": "400",
-                  "lineHeight": 24,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                undefined,
-              ]
-            }
-          >
             <Text
               style={
                 [
                   {
                     "color": "#1b1b24",
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "Manrope",
+                    "fontSize": 32,
+                    "fontWeight": "700",
+                    "letterSpacing": -0.32,
+                    "lineHeight": 40,
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              Headline Lg (32)
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#1b1b24",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "Manrope",
+                    "fontSize": 20,
+                    "fontWeight": "600",
+                    "lineHeight": 28,
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              Headline Md (20)
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#1b1b24",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "Manrope",
+                    "fontSize": 18,
+                    "fontWeight": "400",
+                    "lineHeight": 28,
+                  },
+                  false,
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              Body Lg (18)
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#1b1b24",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  {
+                    "fontFamily": "Manrope",
+                    "fontSize": 16,
+                    "fontWeight": "400",
+                    "lineHeight": 24,
+                  },
+                  false,
+                  false,
+                  undefined,
+                ]
+              }
+            >
+              Body Md (16)
+            </Text>
+            <Text
+              style={
+                [
+                  {
+                    "color": "#1b1b24",
+                  },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -370,152 +414,12 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                     "lineHeight": 20,
                   },
                   false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
-                  false,
                   undefined,
                 ]
               }
             >
-              press 
-              <Text
-                style={
-                  [
-                    {
-                      "color": "#1b1b24",
-                    },
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    [
-                      {
-                        "fontFamily": "JetBrains Mono",
-                        "fontSize": 12,
-                        "fontWeight": "500",
-                        "letterSpacing": 0.6000000000000001,
-                        "lineHeight": 16,
-                      },
-                      {
-                        "fontFamily": "ui-monospace",
-                      },
-                    ],
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    false,
-                    undefined,
-                  ]
-                }
-              >
-                cmd+d
-              </Text>
+              Label Md (14) - JetBrains Mono
             </Text>
-          </Text>
-        </View>
-      </View>
-      <View
-        style={
-          {
-            "flexDirection": "row",
-            "justifyContent": "space-between",
-          }
-        }
-      >
-        <Text
-          style={
-            [
-              {
-                "color": "#1b1b24",
-              },
-              false,
-              false,
-              false,
-              {
-                "fontFamily": "JetBrains Mono",
-                "fontSize": 14,
-                "fontWeight": "500",
-                "letterSpacing": 0.28,
-                "lineHeight": 20,
-              },
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              undefined,
-            ]
-          }
-        >
-          Fresh start
-        </Text>
-        <View
-          style={
-            [
-              {
-                "backgroundColor": "#f5f2ff",
-              },
-              {
-                "borderRadius": 8,
-                "paddingHorizontal": 8,
-                "paddingVertical": 2,
-              },
-            ]
-          }
-        >
-          <Text
-            style={
-              [
-                {
-                  "color": "#464555",
-                },
-                {
-                  "fontFamily": "Manrope",
-                  "fontSize": 16,
-                  "fontWeight": "400",
-                  "lineHeight": 24,
-                },
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                undefined,
-              ]
-            }
-          >
             <Text
               style={
                 [
@@ -529,18 +433,6 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                   false,
                   false,
                   false,
-                  [
-                    {
-                      "fontFamily": "JetBrains Mono",
-                      "fontSize": 12,
-                      "fontWeight": "500",
-                      "letterSpacing": 0.6000000000000001,
-                      "lineHeight": 16,
-                    },
-                    {
-                      "fontFamily": "ui-monospace",
-                    },
-                  ],
                   false,
                   false,
                   false,
@@ -549,16 +441,480 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                   false,
                   false,
                   false,
+                  {
+                    "fontFamily": "JetBrains Mono",
+                    "fontSize": 12,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.6000000000000001,
+                    "lineHeight": 16,
+                  },
                   undefined,
                 ]
               }
             >
-              npm run reset-project
+              Label Sm (12) - JetBrains Mono
             </Text>
+          </View>
+        </View>
+        <View
+          style={
+            [
+              {
+                "backgroundColor": "#ffffff",
+              },
+              {
+                "backgroundColor": "#ffffff",
+                "borderColor": "rgba(79, 70, 229, 0.1)",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "elevation": 2,
+                "gap": 24,
+                "padding": 24,
+                "shadowColor": "#4f46e5",
+                "shadowOffset": {
+                  "height": 4,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.06,
+                "shadowRadius": 20,
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              [
+                {
+                  "color": "#777587",
+                },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                {
+                  "fontFamily": "JetBrains Mono",
+                  "fontSize": 14,
+                  "fontWeight": "500",
+                  "letterSpacing": 0.28,
+                  "lineHeight": 20,
+                },
+                false,
+                {
+                  "marginBottom": 4,
+                },
+              ]
+            }
+          >
+            BUTTONS
           </Text>
+          <View
+            style={
+              {
+                "gap": 24,
+              }
+            }
+          >
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "borderRadius": 8,
+                    "elevation": 4,
+                    "opacity": 1,
+                    "overflow": "visible",
+                    "shadowColor": "#3525cd",
+                    "shadowOffset": {
+                      "height": 4,
+                      "width": 0,
+                    },
+                    "shadowOpacity": 0.3,
+                    "shadowRadius": 8,
+                    "transform": [
+                      {
+                        "scale": 1,
+                      },
+                    ],
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <ViewManagerAdapter_ExpoLinearGradient
+                colors={
+                  [
+                    4283385573,
+                    4286680312,
+                  ]
+                }
+                endPoint={
+                  [
+                    1,
+                    1,
+                  ]
+                }
+                startPoint={
+                  [
+                    0,
+                    0,
+                  ]
+                }
+                style={
+                  {
+                    "alignItems": "center",
+                    "borderRadius": 8,
+                    "justifyContent": "center",
+                    "paddingHorizontal": 24,
+                    "paddingVertical": 12,
+                  }
+                }
+              >
+                <Text
+                  style={
+                    [
+                      {
+                        "color": "#ffffff",
+                      },
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      false,
+                      {
+                        "fontFamily": "JetBrains Mono",
+                        "fontSize": 14,
+                        "fontWeight": "500",
+                        "letterSpacing": 0.28,
+                        "lineHeight": 20,
+                      },
+                      false,
+                      {
+                        "fontWeight": "600",
+                      },
+                    ]
+                  }
+                >
+                  Primary Gradient
+                </Text>
+              </ViewManagerAdapter_ExpoLinearGradient>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "#006c49",
+                    "borderRadius": 8,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "paddingHorizontal": 24,
+                    "paddingVertical": 12,
+                    "transform": [
+                      {
+                        "scale": 1,
+                      },
+                    ],
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#ffffff",
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.28,
+                      "lineHeight": 20,
+                    },
+                    false,
+                    {
+                      "fontWeight": "600",
+                    },
+                  ]
+                }
+              >
+                Secondary Action
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderColor": "#c7c4d8",
+                    "borderRadius": 8,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "paddingHorizontal": 24,
+                    "paddingVertical": 12,
+                    "transform": [
+                      {
+                        "scale": 1,
+                      },
+                    ],
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#3525cd",
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.28,
+                      "lineHeight": 20,
+                    },
+                    false,
+                    {
+                      "fontWeight": "600",
+                    },
+                  ]
+                }
+              >
+                Outline Button
+              </Text>
+            </View>
+            <View
+              accessibilityState={
+                {
+                  "busy": undefined,
+                  "checked": undefined,
+                  "disabled": undefined,
+                  "expanded": undefined,
+                  "selected": undefined,
+                }
+              }
+              accessibilityValue={
+                {
+                  "max": undefined,
+                  "min": undefined,
+                  "now": undefined,
+                  "text": undefined,
+                }
+              }
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onFocus={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                [
+                  {
+                    "alignItems": "center",
+                    "backgroundColor": "transparent",
+                    "borderRadius": 8,
+                    "justifyContent": "center",
+                    "opacity": 1,
+                    "overflow": "hidden",
+                    "paddingHorizontal": 24,
+                    "paddingVertical": 12,
+                    "transform": [
+                      {
+                        "scale": 1,
+                      },
+                    ],
+                  },
+                  undefined,
+                ]
+              }
+            >
+              <Text
+                style={
+                  [
+                    {
+                      "color": "#3525cd",
+                    },
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.28,
+                      "lineHeight": 20,
+                    },
+                    false,
+                    {
+                      "fontWeight": "600",
+                    },
+                  ]
+                }
+              >
+                Ghost Button
+              </Text>
+            </View>
+          </View>
         </View>
       </View>
-    </View>
+    </RCTScrollView>
   </View>
 </View>
 `;

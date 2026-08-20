@@ -23,11 +23,6 @@ jest.mock('expo-splash-screen', () => ({
   preventAutoHideAsync: jest.fn(),
 }));
 jest.mock('react-native-worklets', () => ({ scheduleOnRN: jest.fn() }));
-// Mock the entire animated-icon module so we don't load reanimated/worklets in this test
-jest.mock('@/components/animated-icon', () => ({
-  AnimatedIcon: () => null,
-  AnimatedSplashOverlay: () => null,
-}));
 
 describe('<HomeScreen />', () => {
   beforeEach(() => {
@@ -36,64 +31,29 @@ describe('<HomeScreen />', () => {
   });
   afterEach(() => jest.restoreAllMocks());
 
-  test('renders "Welcome to" heading', async () => {
+  test('renders the design system headings', async () => {
     const { getByText } = await render(<HomeScreen />);
-    expect(getByText(/Welcome to/i)).toBeTruthy();
+    expect(getByText('DESIGN SYSTEM')).toBeTruthy();
+    expect(getByText('Vibrant FinTrack')).toBeTruthy();
   });
 
-  test('renders "get started" label', async () => {
+  test('renders the typography examples', async () => {
     const { getByText } = await render(<HomeScreen />);
-    expect(getByText(/get started/i)).toBeTruthy();
+    expect(getByText('TYPOGRAPHY')).toBeTruthy();
+    expect(getByText('Display Lg (48)')).toBeTruthy();
+    expect(getByText('Label Sm (12) - JetBrains Mono')).toBeTruthy();
   });
 
-  test('renders all three hint rows', async () => {
+  test('renders the button variants', async () => {
     const { getByText } = await render(<HomeScreen />);
-    expect(getByText('Try editing')).toBeTruthy();
-    expect(getByText('Dev tools')).toBeTruthy();
-    expect(getByText('Fresh start')).toBeTruthy();
+    expect(getByText('BUTTONS')).toBeTruthy();
+    expect(getByText('Primary Gradient')).toBeTruthy();
+    expect(getByText('Secondary Action')).toBeTruthy();
+    expect(getByText('Outline Button')).toBeTruthy();
+    expect(getByText('Ghost Button')).toBeTruthy();
   });
 
-  test('shows cmd+d shortcut on iOS simulator', async () => {
-    jest.replaceProperty(Platform, 'OS', 'ios');
-    mockDeviceState.isDevice = false;
-    const { getByText } = await render(<HomeScreen />);
-    expect(getByText('cmd+d')).toBeTruthy();
-  });
-
-  test('shows cmd+m shortcut on Android simulator', async () => {
-    jest.replaceProperty(Platform, 'OS', 'android');
-    mockDeviceState.isDevice = false;
-    const { getByText } = await render(<HomeScreen />);
-    expect(getByText('cmd+m (or ctrl+m)')).toBeTruthy();
-  });
-
-  test('shows web devtools hint on web', async () => {
-    jest.replaceProperty(Platform, 'OS', 'web');
-    const { getByText } = await render(<HomeScreen />);
-    expect(getByText('use browser devtools')).toBeTruthy();
-  });
-
-  test('shows "shake device" hint on real device', async () => {
-    jest.replaceProperty(Platform, 'OS', 'ios');
-    mockDeviceState.isDevice = true;
-    const { getByText } = await render(<HomeScreen />);
-    expect(getByText(/shake device/i)).toBeTruthy();
-  });
-
-  test('shows WebBadge only on web', async () => {
-    jest.replaceProperty(Platform, 'OS', 'web');
-    const { queryByText } = await render(<HomeScreen />);
-    expect(queryByText(/^v\d+/)).toBeTruthy();
-  });
-
-  test('does NOT show WebBadge on native', async () => {
-    jest.replaceProperty(Platform, 'OS', 'ios');
-    mockDeviceState.isDevice = false;
-    const { queryByText } = await render(<HomeScreen />);
-    expect(queryByText(/^v\d+/)).toBeNull();
-  });
-
-  test('matches snapshot (iOS simulator)', async () => {
+  test('matches snapshot', async () => {
     jest.replaceProperty(Platform, 'OS', 'ios');
     mockDeviceState.isDevice = false;
     const { toJSON } = await render(<HomeScreen />);
