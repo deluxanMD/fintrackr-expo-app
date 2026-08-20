@@ -5,7 +5,7 @@ exports[`<ThemedView /> matches snapshot 1`] = `
   style={
     [
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
       undefined,
     ]

@@ -5,7 +5,7 @@ exports[`<WebBadge /> matches snapshot (dark) 1`] = `
   style={
     [
       {
-        "backgroundColor": "#000000",
+        "backgroundColor": "#121212",
       },
       {
         "alignItems": "center",
@@ -19,7 +19,7 @@ exports[`<WebBadge /> matches snapshot (dark) 1`] = `
     style={
       [
         {
-          "color": "#B0B4BA",
+          "color": "#a3a3a3",
         },
         false,
         false,
@@ -28,11 +28,26 @@ exports[`<WebBadge /> matches snapshot (dark) 1`] = `
         false,
         false,
         false,
-        {
-          "fontFamily": "ui-monospace",
-          "fontSize": 12,
-          "fontWeight": 500,
-        },
+        [
+          {
+            "fontFamily": "JetBrains Mono",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "letterSpacing": 0.6000000000000001,
+            "lineHeight": 16,
+          },
+          {
+            "fontFamily": "ui-monospace",
+          },
+        ],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         {
           "textAlign": "center",
         },
@@ -63,7 +78,7 @@ exports[`<WebBadge /> matches snapshot (light) 1`] = `
   style={
     [
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
       {
         "alignItems": "center",
@@ -77,7 +92,7 @@ exports[`<WebBadge /> matches snapshot (light) 1`] = `
     style={
       [
         {
-          "color": "#60646C",
+          "color": "#464555",
         },
         false,
         false,
@@ -86,11 +101,26 @@ exports[`<WebBadge /> matches snapshot (light) 1`] = `
         false,
         false,
         false,
-        {
-          "fontFamily": "ui-monospace",
-          "fontSize": 12,
-          "fontWeight": 500,
-        },
+        [
+          {
+            "fontFamily": "JetBrains Mono",
+            "fontSize": 12,
+            "fontWeight": "500",
+            "letterSpacing": 0.6000000000000001,
+            "lineHeight": 16,
+          },
+          {
+            "fontFamily": "ui-monospace",
+          },
+        ],
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
         {
           "textAlign": "center",
         },
