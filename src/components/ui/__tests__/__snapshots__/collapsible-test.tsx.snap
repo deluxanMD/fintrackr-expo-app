@@ -5,7 +5,7 @@ exports[`<Collapsible /> matches snapshot (closed) 1`] = `
   style={
     [
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
       undefined,
     ]
@@ -57,7 +57,7 @@ exports[`<Collapsible /> matches snapshot (closed) 1`] = `
       style={
         [
           {
-            "backgroundColor": "#F0F0F3",
+            "backgroundColor": "#ffffff",
           },
           {
             "alignItems": "center",
@@ -89,8 +89,8 @@ exports[`<Collapsible /> matches snapshot (closed) 1`] = `
             },
           ]
         }
-        tint={4278190080}
-        tintColor="#000000"
+        tint={4279966500}
+        tintColor="#1b1b24"
         type="monochrome"
         weight="bold"
       />
@@ -99,15 +99,25 @@ exports[`<Collapsible /> matches snapshot (closed) 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#1b1b24",
           },
+          false,
           false,
           false,
           {
+            "fontFamily": "JetBrains Mono",
             "fontSize": 14,
-            "fontWeight": 500,
+            "fontWeight": "500",
+            "letterSpacing": 0.28,
             "lineHeight": 20,
           },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -128,7 +138,7 @@ exports[`<Collapsible /> matches snapshot (open) 1`] = `
   style={
     [
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
       undefined,
     ]
@@ -180,7 +190,7 @@ exports[`<Collapsible /> matches snapshot (open) 1`] = `
       style={
         [
           {
-            "backgroundColor": "#F0F0F3",
+            "backgroundColor": "#ffffff",
           },
           {
             "alignItems": "center",
@@ -212,8 +222,8 @@ exports[`<Collapsible /> matches snapshot (open) 1`] = `
             },
           ]
         }
-        tint={4278190080}
-        tintColor="#000000"
+        tint={4279966500}
+        tintColor="#1b1b24"
         type="monochrome"
         weight="bold"
       />
@@ -222,15 +232,25 @@ exports[`<Collapsible /> matches snapshot (open) 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#1b1b24",
           },
+          false,
           false,
           false,
           {
+            "fontFamily": "JetBrains Mono",
             "fontSize": 14,
-            "fontWeight": 500,
+            "fontWeight": "500",
+            "letterSpacing": 0.28,
             "lineHeight": 20,
           },
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
           false,
           false,
           false,
@@ -280,7 +300,7 @@ exports[`<Collapsible /> matches snapshot (open) 1`] = `
       style={
         [
           {
-            "backgroundColor": "#F0F0F3",
+            "backgroundColor": "#ffffff",
           },
           {
             "borderRadius": 16,
