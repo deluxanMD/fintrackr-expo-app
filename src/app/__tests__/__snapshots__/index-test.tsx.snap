@@ -5,7 +5,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
   style={
     [
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
       {
         "flex": 1,
@@ -31,7 +31,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
       style={
         [
           {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "#fcf8ff",
           },
           {
             "alignItems": "center",
@@ -47,14 +47,24 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
         style={
           [
             {
-              "color": "#000000",
+              "color": "#1b1b24",
             },
             false,
             {
+              "fontFamily": "Manrope",
               "fontSize": 48,
-              "fontWeight": 600,
-              "lineHeight": 52,
+              "fontWeight": "800",
+              "letterSpacing": -0.96,
+              "lineHeight": 56,
             },
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
             false,
             false,
             false,
@@ -74,7 +84,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
       style={
         [
           {
-            "color": "#000000",
+            "color": "#1b1b24",
           },
           false,
           false,
@@ -83,11 +93,26 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           false,
           false,
           false,
-          {
-            "fontFamily": "ui-monospace",
-            "fontSize": 12,
-            "fontWeight": 500,
-          },
+          [
+            {
+              "fontFamily": "JetBrains Mono",
+              "fontSize": 12,
+              "fontWeight": "500",
+              "letterSpacing": 0.6000000000000001,
+              "lineHeight": 16,
+            },
+            {
+              "fontFamily": "ui-monospace",
+            },
+          ],
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false,
           {
             "textTransform": "uppercase",
           },
@@ -100,7 +125,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
       style={
         [
           {
-            "backgroundColor": "#F0F0F3",
+            "backgroundColor": "#ffffff",
           },
           {
             "alignSelf": "stretch",
@@ -124,15 +149,25 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "color": "#000000",
+                "color": "#1b1b24",
               },
+              false,
               false,
               false,
               {
+                "fontFamily": "JetBrains Mono",
                 "fontSize": 14,
-                "fontWeight": 500,
+                "fontWeight": "500",
+                "letterSpacing": 0.28,
                 "lineHeight": 20,
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false,
@@ -148,7 +183,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "backgroundColor": "#E0E1E6",
+                "backgroundColor": "#f5f2ff",
               },
               {
                 "borderRadius": 8,
@@ -162,13 +197,22 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
             style={
               [
                 {
-                  "color": "#60646C",
+                  "color": "#464555",
                 },
                 {
+                  "fontFamily": "Manrope",
                   "fontSize": 16,
-                  "fontWeight": 500,
+                  "fontWeight": "400",
                   "lineHeight": 24,
                 },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 false,
                 false,
                 false,
@@ -184,7 +228,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
                   false,
                   false,
@@ -193,11 +237,26 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                   false,
                   false,
                   false,
-                  {
-                    "fontFamily": "ui-monospace",
-                    "fontSize": 12,
-                    "fontWeight": 500,
-                  },
+                  [
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.6000000000000001,
+                      "lineHeight": 16,
+                    },
+                    {
+                      "fontFamily": "ui-monospace",
+                    },
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   undefined,
                 ]
               }
@@ -219,15 +278,25 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "color": "#000000",
+                "color": "#1b1b24",
               },
+              false,
               false,
               false,
               {
+                "fontFamily": "JetBrains Mono",
                 "fontSize": 14,
-                "fontWeight": 500,
+                "fontWeight": "500",
+                "letterSpacing": 0.28,
                 "lineHeight": 20,
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false,
@@ -243,7 +312,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "backgroundColor": "#E0E1E6",
+                "backgroundColor": "#f5f2ff",
               },
               {
                 "borderRadius": 8,
@@ -257,13 +326,22 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
             style={
               [
                 {
-                  "color": "#60646C",
+                  "color": "#464555",
                 },
                 {
+                  "fontFamily": "Manrope",
                   "fontSize": 16,
-                  "fontWeight": 500,
+                  "fontWeight": "400",
                   "lineHeight": 24,
                 },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 false,
                 false,
                 false,
@@ -279,15 +357,25 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -302,7 +390,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                 style={
                   [
                     {
-                      "color": "#000000",
+                      "color": "#1b1b24",
                     },
                     false,
                     false,
@@ -311,11 +399,26 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                     false,
                     false,
                     false,
-                    {
-                      "fontFamily": "ui-monospace",
-                      "fontSize": 12,
-                      "fontWeight": 500,
-                    },
+                    [
+                      {
+                        "fontFamily": "JetBrains Mono",
+                        "fontSize": 12,
+                        "fontWeight": "500",
+                        "letterSpacing": 0.6000000000000001,
+                        "lineHeight": 16,
+                      },
+                      {
+                        "fontFamily": "ui-monospace",
+                      },
+                    ],
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
+                    false,
                     undefined,
                   ]
                 }
@@ -338,15 +441,25 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "color": "#000000",
+                "color": "#1b1b24",
               },
+              false,
               false,
               false,
               {
+                "fontFamily": "JetBrains Mono",
                 "fontSize": 14,
-                "fontWeight": 500,
+                "fontWeight": "500",
+                "letterSpacing": 0.28,
                 "lineHeight": 20,
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false,
@@ -362,7 +475,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
           style={
             [
               {
-                "backgroundColor": "#E0E1E6",
+                "backgroundColor": "#f5f2ff",
               },
               {
                 "borderRadius": 8,
@@ -376,13 +489,22 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
             style={
               [
                 {
-                  "color": "#60646C",
+                  "color": "#464555",
                 },
                 {
+                  "fontFamily": "Manrope",
                   "fontSize": 16,
-                  "fontWeight": 500,
+                  "fontWeight": "400",
                   "lineHeight": 24,
                 },
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
+                false,
                 false,
                 false,
                 false,
@@ -398,7 +520,7 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
                   false,
                   false,
@@ -407,11 +529,26 @@ exports[`<HomeScreen /> matches snapshot (iOS simulator) 1`] = `
                   false,
                   false,
                   false,
-                  {
-                    "fontFamily": "ui-monospace",
-                    "fontSize": 12,
-                    "fontWeight": 500,
-                  },
+                  [
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 12,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.6000000000000001,
+                      "lineHeight": 16,
+                    },
+                    {
+                      "fontFamily": "ui-monospace",
+                    },
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   undefined,
                 ]
               }

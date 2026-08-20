@@ -25,7 +25,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
         "flex": 1,
       },
       {
-        "backgroundColor": "#ffffff",
+        "backgroundColor": "#fcf8ff",
       },
     ]
   }
@@ -35,7 +35,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
       style={
         [
           {
-            "backgroundColor": "#ffffff",
+            "backgroundColor": "#fcf8ff",
           },
           {
             "flexGrow": 1,
@@ -48,7 +48,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
         style={
           [
             {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#fcf8ff",
             },
             {
               "alignItems": "center",
@@ -63,17 +63,26 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "color": "#000000",
+                "color": "#1b1b24",
               },
-              false,
-              false,
               false,
               false,
               {
-                "fontSize": 32,
-                "fontWeight": 600,
-                "lineHeight": 44,
+                "fontFamily": "Manrope",
+                "fontSize": 20,
+                "fontWeight": "600",
+                "lineHeight": 28,
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false,
@@ -87,13 +96,22 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "color": "#60646C",
+                "color": "#464555",
               },
               {
+                "fontFamily": "Manrope",
                 "fontSize": 16,
-                "fontWeight": 500,
+                "fontWeight": "400",
                 "lineHeight": 24,
               },
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
               false,
               false,
               false,
@@ -149,7 +167,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
             style={
               [
                 {
-                  "backgroundColor": "#F0F0F3",
+                  "backgroundColor": "#ffffff",
                 },
                 {
                   "alignItems": "center",
@@ -167,17 +185,33 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
                   false,
                   false,
                   false,
                   false,
                   false,
-                  {
-                    "fontSize": 14,
-                    "lineHeight": 30,
-                  },
+                  [
+                    {
+                      "fontFamily": "JetBrains Mono",
+                      "fontSize": 14,
+                      "fontWeight": "500",
+                      "letterSpacing": 0.28,
+                      "lineHeight": 20,
+                    },
+                    {
+                      "color": "#3525cd",
+                    },
+                  ],
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   undefined,
@@ -195,7 +229,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                 }
               }
               size={12}
-              tintColor="#000000"
+              tintColor="#1b1b24"
             />
           </View>
         </View>
@@ -204,7 +238,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
         style={
           [
             {
-              "backgroundColor": "#ffffff",
+              "backgroundColor": "#fcf8ff",
             },
             {
               "gap": 32,
@@ -218,7 +252,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "backgroundColor": "#ffffff",
+                "backgroundColor": "#fcf8ff",
               },
               undefined,
             ]
@@ -270,7 +304,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "backgroundColor": "#F0F0F3",
+                    "backgroundColor": "#ffffff",
                   },
                   {
                     "alignItems": "center",
@@ -300,7 +334,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                     ],
                   }
                 }
-                tintColor="#000000"
+                tintColor="#1b1b24"
                 weight="bold"
               />
             </View>
@@ -308,15 +342,25 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -334,7 +378,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "backgroundColor": "#ffffff",
+                "backgroundColor": "#fcf8ff",
               },
               undefined,
             ]
@@ -386,7 +430,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "backgroundColor": "#F0F0F3",
+                    "backgroundColor": "#ffffff",
                   },
                   {
                     "alignItems": "center",
@@ -416,7 +460,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                     ],
                   }
                 }
-                tintColor="#000000"
+                tintColor="#1b1b24"
                 weight="bold"
               />
             </View>
@@ -424,15 +468,25 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -450,7 +504,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "backgroundColor": "#ffffff",
+                "backgroundColor": "#fcf8ff",
               },
               undefined,
             ]
@@ -502,7 +556,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "backgroundColor": "#F0F0F3",
+                    "backgroundColor": "#ffffff",
                   },
                   {
                     "alignItems": "center",
@@ -532,7 +586,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                     ],
                   }
                 }
-                tintColor="#000000"
+                tintColor="#1b1b24"
                 weight="bold"
               />
             </View>
@@ -540,15 +594,25 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -566,7 +630,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "backgroundColor": "#ffffff",
+                "backgroundColor": "#fcf8ff",
               },
               undefined,
             ]
@@ -618,7 +682,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "backgroundColor": "#F0F0F3",
+                    "backgroundColor": "#ffffff",
                   },
                   {
                     "alignItems": "center",
@@ -648,7 +712,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                     ],
                   }
                 }
-                tintColor="#000000"
+                tintColor="#1b1b24"
                 weight="bold"
               />
             </View>
@@ -656,15 +720,25 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
@@ -682,7 +756,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
           style={
             [
               {
-                "backgroundColor": "#ffffff",
+                "backgroundColor": "#fcf8ff",
               },
               undefined,
             ]
@@ -734,7 +808,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "backgroundColor": "#F0F0F3",
+                    "backgroundColor": "#ffffff",
                   },
                   {
                     "alignItems": "center",
@@ -764,7 +838,7 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
                     ],
                   }
                 }
-                tintColor="#000000"
+                tintColor="#1b1b24"
                 weight="bold"
               />
             </View>
@@ -772,15 +846,25 @@ exports[`<TabTwoScreen /> matches snapshot 1`] = `
               style={
                 [
                   {
-                    "color": "#000000",
+                    "color": "#1b1b24",
                   },
+                  false,
                   false,
                   false,
                   {
+                    "fontFamily": "JetBrains Mono",
                     "fontSize": 14,
-                    "fontWeight": 500,
+                    "fontWeight": "500",
+                    "letterSpacing": 0.28,
                     "lineHeight": 20,
                   },
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
+                  false,
                   false,
                   false,
                   false,
